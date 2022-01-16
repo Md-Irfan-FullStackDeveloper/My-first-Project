@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.title {
+    color: #5B21b6;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1em 2em;
+}
+
+.navbar {
+    border-bottom: 1px solid aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.nav-content li {
+    display: inline;
+    word-spacing: 10px;
+    margin-right: 1.6em;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    transition: font-size 0.7s;
+
+}
+
+.btn {
+    background-color: #6d28d9;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0.8em 2em;
+    margin-right: 2em;
+    border-radius: 2em;
+    border: none;
+
+}
+
+/* Hover effect */
+ul li a:hover {
+    color: #ff6f69;
+    font-size: 1em;
+}
+
+ul li a:visited {
+    color: #4040a1;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #7c34f0;
+    border: 1px solid greenyellow;
+}
+
+/* main section part */
+.main {
+    width: 100%;
+    height: 27rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div1 {
+    text-align: left;
+    /* margin: 0 3.5em; */
+    padding: 0 3.5em;
+}
+
+#main-h1 {
+    font-size: 2.6em;
+
+}
+
+#main-h1 span {
+    color: #4f46e5;
+}
+
+#main-para {
+    margin-top: 0.7em;
+}
+
+/* main section's buttons */
+#main-btn1, #main-btn2 {
+    margin-top: 2em;
+    border: none;
+}
+
+#main-btn1 {
+    background-color: black;
+    color: white;
+    padding: 0.7em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#main-btn2 {
+    padding: 0.7em 2em;
+    background-color: #959697;
+    color: black;
+    margin-left: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.man-div2, img {
+    height: 400px;
+    padding-right: 2em;
+    border-radius: 10px;
+}
+/* main section button's hover effect */
+#main-btn1:hover{
+    background-color: rgb(32, 32, 32);
+}
+#main-btn2:hover{
+    background-color: grey;
+}
+
+/* Section main-2 */
+.main-2 {
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 450px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-head {
+    text-align: center;
+    font-size: 2em;
+    margin: 45px 0;
+}
+
+.card1, .card2, .card3 {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 450px;
+    text-align: center;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 5px 8px 3px grey;
+}
+
+.card1, .card2 {
+    margin: 20px 110px 20px 0;
+}
+
+.card3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sec2-img1, #sec2-img2, #sec2-img3 {
+    width: 50%;
+    height: 50%;
+    margin-top: 10px;
+    padding: 0 0 10px 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.card-sub {
+    text-align: left;
+    padding: 0 10px 0 24px;
+}
+
+.card-sub, h3 {
+    margin: 10px 0 10px 0;
+}
+
+.card-sub, p {
+    color: #374151;
+}
+
+.card-sub, span {
+    color: #9ca3af;
+}
+
+.main2-para {
+    font-size: 0.85em;
+}
+
+.main2-btn {
+    text-align: left;
+    padding: 16px 5px 5px 20px;
+}
+
+#main2-btn1, #main2-btn2, #main2-btn3 {
+    padding: 10px;
+    background-color: #5B21b6;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+#main2-btn1 {
+    margin-top: 16px;
+}
+
+#main2-btn3 {
+    /* margin-bottom: 10px; */
+    margin-top: -10px;
+}
+
+/* setion 2 card's button hover effect */
+#main2-btn1:hover {
+    background-color: #0645f0;
+}
+
+#main2-btn2:hover {
+    background-color: #0645f0;
+}
+
+#main2-btn3:hover {
+    background-color: #0645f0;
+}
+/* Section 3 price chart */
+.sec-3{
+    width: 100vw;
+    height: 90vh;
+    border: none;
+    background-color: #1C6DD0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.price-div{
+    border:none;
+    width: 25%;
+    height:25em;
+    margin: 10px 25px 0 10px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 4px 5px 3px #444442;
+}
+.sec3-head{
+    text-align: center;
+    margin: 50px;
+    font-size: 1em;
+}
+.sec3-img{
+    width: 100%;
+    height: 40%;
+}
+.pdiv1-data1, .pdiv1-data2, .pdiv1-data3{
+    text-align: center;
+    margin-top: 20px;
+}
+.sec3-btn{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.buy{
+    background-color: #F05454;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    color: #FBFFE2;
+    font-weight: bold;
+}
+.pricing{
+    color: #C84B31;
+    font-size: 1.5em;
+}
+.price-div, p{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.off{
+    text-decoration: line-through;
+    color: red;
+    font-size: 0.9em;
+}
+/* section 3 button hover effect */
+.buy:hover{
+    background-color: #316B83;
+    cursor: pointer;
+    padding: 13px 20px 13px 20px;
+}
+/* section 4 testimonials */
+.sec-4{
+    width: 100vw;
+    height: 60vh;
+    /* border: 2px solid red; */
+    margin: 5em 0 5em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec4-div{
+    width: 40%;
+    height: 70%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: #a0a09a;
+}
+.sec4-head{
+    text-align: center;
+    margin: 2.3em;
+    font-size: 1.5em;
+}
+.test{
+    width: 10%;
+    height: 15%;
+    padding: 0 0 0 1em;
+    margin: 0.5em 0 0 1em;
+}
+.sec4-data{
+    padding: 2em 2em 1em 1.5em;
+    font-size: 0.85em;
+}
+.name{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+/* footer section */
+footer{
+    width: 100vw;
+    height: 10vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.foot{
+    display: inline;
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid blueviolet; */
+    margin: 0 0 0 2em;
+    text-align: center;
+    padding:0.8em 0 0.55em 0.6em;
+}
+.copy{
+    margin-left: 0;
+    border-left: 3px solid grey;
+    text-align: left;
+    padding:0.7em 0 0.7em 0.6em;
+}
